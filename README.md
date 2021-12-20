@@ -29,3 +29,10 @@ Ping the address from a laptop before using it to ensure it is spare!
 #define LED_PIN 25                       
 #define LED_COUNT 48
 ```
+
+## Once Program is loaded from Arduino IDE:
+Use Arduino Serial monitor at baud 115200 to view status when board is reset
+
+If connected successfully to WiFi, then from a Web Browser put in the IP address used in the code into Chrome or Edge..... Eg. 192.168.0.45
+Web interfae should come up!
+
