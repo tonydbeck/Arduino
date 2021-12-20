@@ -5,3 +5,8 @@ All My Arduino Code!
 ## Libraries needed:
 - WS2812FX
 - Adafruit-Neopixel
+
+### Make sure to change:
+- #define WIFI_SSID "xxxx"
+- #define WIFI_PASSWORD "xxxx"
+
