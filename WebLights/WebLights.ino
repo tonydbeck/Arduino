@@ -56,8 +56,8 @@
 extern const char index_html[];
 extern const char main_js[];
 
-#define WIFI_SSID "VM0123274"
-#define WIFI_PASSWORD "t7wrYjrmknff"
+#define WIFI_SSID "Your WIFI Network"
+#define WIFI_PASSWORD "Your WiFi Password"
 
 #define STATIC_IP                       // uncomment for static IP, set IP below
 #ifdef STATIC_IP
@@ -70,8 +70,8 @@ extern const char main_js[];
 #define min(a,b) ((a)<(b)?(a):(b))
 #define max(a,b) ((a)>(b)?(a):(b))
 
-#define LED_PIN 25                       // 0 = GPIO0, 2=GPIO2
-#define LED_COUNT 48
+#define LED_PIN 25                       //PIN 25 for Tessellate
+#define LED_COUNT 48                     //48 LEDs to control
 
 #define WIFI_TIMEOUT 30000              // checks WiFi every ...ms. Reset after this time, if WiFi cannot reconnect.
 #define HTTP_PORT 80
